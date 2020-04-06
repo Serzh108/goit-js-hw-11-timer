@@ -1,0 +1,32 @@
+body {
+  background-color: rgba(22, 122, 168, 0.2);
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.field {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 179, 255, 0.3);
+  margin: 5px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 20px;
+  color: rgba(22, 51, 168, 1.0);
+}
+
+.field span {
+  padding: 8px 0 0;
+  display: block;
+}
+
+.field .value {
+  padding-top: 16px;
+  font-size: 36px;
+  color: rgba(168, 22, 144, 0.9);
+}
